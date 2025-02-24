@@ -1,0 +1,72 @@
+/* propiedad: color
+valores: teal, red, blue, orange, purple, olive, fuchsia y green. */
+
+h1{
+   color: teal;
+}
+
+p strong{
+   color: red;
+}
+
+.destacado{
+   color: orange;
+}
+
+#subtitulo{
+   color:blue;
+}
+
+table {
+   border-collapse: collapse;
+ }
+
+ a{
+   color:red;
+ }
+
+ a em{
+   color:blue;
+ }
+
+ p span.especial{
+   color:purple;
+ }
+
+ table caption{
+   color: blue;
+ }
+ 
+ th, td {
+   border: 1px solid black;
+   padding: 8px;
+   text-align: left;
+ }
+
+ tr th.especial{
+   color: orange;
+ }
+
+ tr th{
+   color:red;
+ }
+
+ tr td strong{
+   color: orange;
+ }
+
+ tr td{
+   color:green;
+ }
+
+ div#adicional p{
+   color: olive;
+ }
+
+ div#adicional span#especial{
+   color: fuchsia;
+ }
+
+ div#adicional a{
+   color: green;
+ }
