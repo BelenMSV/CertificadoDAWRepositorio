@@ -15,18 +15,18 @@ do {
    numC = parseInt(window.prompt("Introduce el número C: "));
 } while (isNaN(numC));
 
-if(numA>numB && numA>numC){
-   document.write("El número A es el mayor: " + numA);
-} else if(numB>numA && numB>numC){
-   document.write("El número B es el mayor: " + numB);
-} else if(numC>numB && numC> numA){
-   document.write("El número C es el mayor: " + numC);
+if(numA<numB && numA<numC){
+   document.write("El número A es el menor: " + numA);
+} else if(numB<numA && numB<numC){
+   document.write("El número B es el menor: " + numB);
+} else if(numC<numB && numC< numA){
+   document.write("El número C es el menor: " + numC);
 } else if(numA===numB && numC===numA){
-   document.write("No hay un número mayor que otro, todos son iguales");
+   document.write("No hay un número menor que otro, todos son iguales");
 } else if (numA===numB){
-   document.write("El número A y el numero B valen lo mismo y son los números mayores:");
+   document.write("El número A y el numero B valen lo mismo y son los números menores:");
 } else if (numA===numC){
-   document.write("El número A y el numero C valen lo mismo y son los números mayores:");
+   document.write("El número A y el numero C valen lo mismo y son los números menores:");
 } else{
-   document.write("El número B y el numero C valen lo mismo y son los números mayores:");
+   document.write("El número B y el numero C valen lo mismo y son los números menores:");
 }
