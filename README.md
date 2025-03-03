@@ -16,7 +16,9 @@ El objetivo del certificado es desarrollar documentos y componentes software par
 #### 🔹 1.1 Elaboración de documentos web mediante lenguajes de marcas  
 - **1.1.1** HTML  
 - **1.1.2** CSS  
-- **1.1.3** JavaScript (JS)  
+- **1.1.3** JavaScript (JS)
+
+### 2️⃣ Desarrollo en el entorno servidor  
 
 ## 📂 Estructura del Repositorio  
 
