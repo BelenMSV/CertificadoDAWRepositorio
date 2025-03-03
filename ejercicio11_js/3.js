@@ -6,13 +6,22 @@ let resultado;
 
 do {
   numA = parseFloat(window.prompt("Introduce el número A: "));
+  if(isNaN(numA)){
+   window.alert("Debes introducir un número real")
+  }
 } while (isNaN(numA));
 
 do {
    numB = parseFloat(window.prompt("Introduce el número B: "));
+   if(isNaN(numB)){
+      window.alert("Debes introducir un número real")
+     }
 } while (isNaN(numB));
 
 do {
+   if(operacion!=="-"&&operacion!=="+"){
+      window.alert("Debes marcar '+' o '-'");
+     }
    operacion = window.prompt("Introduce la operacion + o - : ");
  } while (operacion!=="-"&&operacion!=="+");
 
