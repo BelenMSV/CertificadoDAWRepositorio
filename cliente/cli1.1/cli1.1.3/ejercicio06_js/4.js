@@ -10,7 +10,11 @@ let intentos = 0;
 do{
    nombreIntroducido = window.prompt("Introduce el nombre de usuario : ");
    contrasenyaIntroducida = window.prompt("Introduce la contraseña : ");
-   intentos ++;
+   if(nombreIntroducido!==NOMBRE_USU || contrasenyaIntroducida!==CONTRASENYA){
+      window.alert("Usuario y/o contraseña incorrectos");
+      intentos ++;
+   }
+   
 }while (intentos<3 && (nombreIntroducido!==NOMBRE_USU || contrasenyaIntroducida!==CONTRASENYA))
 
    if(nombreIntroducido!==NOMBRE_USU || contrasenyaIntroducida!==CONTRASENYA){
