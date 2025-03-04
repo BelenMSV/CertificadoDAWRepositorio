@@ -76,3 +76,13 @@ Este directorio contiene ejercicios prácticos sobre **JavaScript**, centrándos
 ✔️ Si introduce otra letra, indicar error.  
 ✔️ Uso de `switch` o `
 
+### 🔤 **Ejercicio 08: Ordenación de un Array con Burbuja**  
+📌 **Objetivo:** Ordenar alfabéticamente un array con 7 palabras utilizando el algoritmo de la burbuja.  
+✔️ Definir un array de palabras.  
+✔️ Implementar el **algoritmo de la burbuja** con bucles  for anidados.  
+✔️ Intercambiar elementos si están en el orden incorrecto.  
+
+---
+
+## 🎯 **Objetivo del Módulo 1.1.3**  
+📌 Aprender a usar **JavaScript** para la manipulación de datos y control de flujo.
