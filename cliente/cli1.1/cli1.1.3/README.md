@@ -16,6 +16,7 @@ Este directorio contiene ejercicios prácticos sobre **JavaScript**, centrándos
 📁 `/cliente/cli1.1.3/ejercicio08_js` → Ordenación de un array con el algoritmo de la burbuja.  
 📁 `/cliente/cli1.1.3/ejercicio09_js` → Contador de palabras.  
 📁 `/cliente/cli1.1.3/ejercicio10_js` → Contador de letras a partir de una secuencia de letras.  
+📁 `/cliente/cli1.1.3/ejercicio11_js` → Invertir un número entero.  
 
 ---
 
@@ -86,34 +87,45 @@ Este directorio contiene ejercicios prácticos sobre **JavaScript**, centrándos
 
 ---
 
-### 📝 **Ejercicio 09: Contador de Palabras**
-📌 **Objetivo:** Solicitar al usuario una frase y contar la cantidad de palabras que contiene.
-
-✔️ Capturar una frase mediante prompt().
-✔️ Ignorar los espacios en blanco al inicio de la frase.
-✔️ Determinar el número de palabras independientemente de que haya varios espacios entre ellas.
-✔️ Evitar contar espacios consecutivos como palabras separadas.
-✔️ Mostrar el número total de palabras con alert().
-✔️ Implementar un recorrido de la cadena con for y while.
+### 📝 **Ejercicio 09: Contador de Palabras**  
+📌 **Objetivo:** Solicitar al usuario una frase y contar la cantidad de palabras que contiene.  
+✔️ Capturar una frase mediante prompt().  
+✔️ Ignorar los espacios en blanco al inicio de la frase.  
+✔️ Determinar el número de palabras independientemente de que haya varios espacios entre ellas.  
+✔️ Evitar contar espacios consecutivos como palabras separadas.  
+✔️ Mostrar el número total de palabras con alert().  
+✔️ Implementar un recorrido de la cadena con for y while.  
 
 ---
 
-### 🔡 Ejercicio 10: Contador de letras a partir de una secuencia de letras
-📌 **Objetivo:** Solicitar al usuario una serie de letras y luego contar cuántas veces aparece una letra específica dentro de la secuencia ingresada.
+### 🔡 Ejercicio 10: Contador de letras a partir de una secuencia de letras  
+📌 **Objetivo:** Solicitar al usuario una serie de letras y luego contar cuántas veces aparece una   letra específica dentro de la secuencia ingresada.  
 
-✔️ Capturar letras de una en una hasta que el usuario decida detenerse.
-✔️ Validar que el usuario solo introduzca una letra por vez.
-✔️ Guardar las letras ingresadas en un array o una cadena de texto.
-✔️ Pedir una letra adicional y contar su frecuencia en la secuencia.
-✔️ Mostrar el resultado al usuario con alert().
-✔️ Implementar distintas soluciones con validaciones y estructuras de control como do-while, for, y if.
+✔️ Capturar letras de una en una hasta que el usuario decida detenerse.  
+✔️ Validar que el usuario solo introduzca una letra por vez.  
+✔️ Guardar las letras ingresadas en un array o una cadena de texto.  
+✔️ Pedir una letra adicional y contar su frecuencia en la secuencia.  
+✔️ Mostrar el resultado al usuario con alert().  
+✔️ Implementar distintas soluciones con validaciones y estructuras de control como do-while, for, y if.  
 
 📌 **Variantes Implementadas:**
-✔️ 10.1- Uso de confirm() para seguir ingresando letras.
-✔️ 10.2- Confirmación con "s/n" para continuar o detenerse.
-✔️ 10.3- Finalización con "0" en lugar de confirmaciones.
-✔️ 10.4- Validación estricta para permitir solo letras del alfabeto.
-✔️ 10.5- Uso de una cadena en vez de un array para almacenar las letras.
+✔️ 10.1- Uso de confirm() para seguir ingresando letras.  
+✔️ 10.2- Confirmación con "s/n" para continuar o detenerse.  
+✔️ 10.3- Finalización con "0" en lugar de confirmaciones.  
+✔️ 10.4- Validación estricta para permitir solo letras del alfabeto.  
+✔️ 10.5- Uso de una cadena en vez de un array para almacenar las letras.  
+
+---
+
+## 🔢 **Ejercicio 11: Invertir un Número Entero**  
+
+📌 **Objetivo:**  
+Desarrollar un programa en JavaScript que invierta un número entero sin convertirlo en una cadena de caracteres.  
+
+✔️ Solicitar al usuario un número entero mediante `window.prompt()`.  
+✔️ Invertir el número utilizando operaciones matemáticas, arrays y estructuras de control de flujo.  
+✔️ Mostrar el número invertido en una alerta (`window.alert()`).  
+✔️ Implementar la lógica sin usar métodos avanzados o conversiones de tipo de dato.  
 
 ---
 
