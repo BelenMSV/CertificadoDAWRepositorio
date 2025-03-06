@@ -30,5 +30,6 @@ En este ejercicio, se solicita al usuario que ingrese una frase y el programa de
 ## 📌 Ejemplo de Uso  
 **Entrada del usuario:**  
 '      Prueba    de conteo     de palabras    '
+
 **Salida esperada:**  
 5
