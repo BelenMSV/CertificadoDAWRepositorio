@@ -13,9 +13,10 @@ Este directorio contiene ejercicios prácticos sobre **JavaScript**, centrándos
 📁 `/cliente/cli1.1.3/ejercicio05_js` → Calculadora de suma/resta.  
 📁 `/cliente/cli1.1.3/ejercicio06_js` → Validación de usuario y contraseña.  
 📁 `/cliente/cli1.1.3/ejercicio07_js` → Asociación de letras con números.  
-📁 `/cliente/cli1.1.3/ejercicio08_js` → Ordenación de un array con el algoritmo de la burbuja.
-📁 `/cliente/cli1.1.3/ejercicio09_js` → Contador de palabras.    
-📁 `/cliente/cli1.1.3/ejercicio10_js` → Contador de letras a partir de una secuencia de letras.
+📁 `/cliente/cli1.1.3/ejercicio08_js` → Ordenación de un array con el algoritmo de la burbuja.  
+📁 `/cliente/cli1.1.3/ejercicio09_js` → Contador de palabras.  
+📁 `/cliente/cli1.1.3/ejercicio10_js` → Contador de letras a partir de una secuencia de letras.  
+
 ---
 
 ## 📌 Descripción de los Ejercicios  
