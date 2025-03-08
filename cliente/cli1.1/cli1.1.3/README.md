@@ -108,7 +108,7 @@ Este directorio contiene ejercicios prácticos sobre **JavaScript**, centrándos
 ✔️ Mostrar el resultado al usuario con alert().  
 ✔️ Implementar distintas soluciones con validaciones y estructuras de control como do-while, for, y if.  
 
-📌 **Variantes Implementadas:**
+📌 **Variantes Implementadas:**  
 ✔️ 10.1- Uso de confirm() para seguir ingresando letras.  
 ✔️ 10.2- Confirmación con "s/n" para continuar o detenerse.  
 ✔️ 10.3- Finalización con "0" en lugar de confirmaciones.  
