@@ -4,20 +4,40 @@
 
 Este directorio contiene ejercicios prácticos sobre **JavaScript**, centrándose en operaciones con variables, estructuras de control y manipulación de datos de entrada.  
 
+---
+
+## 📚 Índice de Ejercicios
+
+- [👋 Ejercicio 01: Botones de Saludo y Despedida](#-ejercicio-01-botones-de-saludo-y-despedida)
+- [🍎 Ejercicio 02: Añadir y Borrar Frutas en un Array](#-ejercicio-02-añadir-y-borrar-frutas-en-un-array)
+- [🔢 Ejercicio 03: Comparación de Números](#-ejercicio-03-comparación-de-números)
+- [🔡 Ejercicio 04: Contador de Letras en una Frase](#-ejercicio-04-contador-de-letras-en-una-frase)
+- [➕➖ Ejercicio 05: Calculadora de Suma/Resta](#-ejercicio-05-calculadora-de-sumaresta)
+- [🔑 Ejercicio 06: Validación de Usuario y Contraseña](#-ejercicio-06-validación-de-usuario-y-contraseña)
+- [🔠 Ejercicio 07: Asociación de Letras con Números](#-ejercicio-07-asociación-de-letras-con-números)
+- [🔤 Ejercicio 08: Ordenación de un Array con Burbuja](#-ejercicio-08-ordenación-de-un-array-con-burbuja)
+- [📝 Ejercicio 09: Contador de Palabras](#-ejercicio-09-contador-de-palabras)
+- [🔡 Ejercicio 10: Contador de letras a partir de una secuencia de letras](#-ejercicio-10-contador-de-letras-a-partir-de-una-secuencia-de-letras)
+- [🔢 Ejercicio 11: Invertir un Número Entero](#-ejercicio-11-invertir-un-número-entero)
+- [🔢 Ejercicio 12: Calcular el Factorial de un Número Entero](#-ejercicio-12-calcular-el-factorial-de-un-número-entero)
+- [🎯 Objetivo del Módulo 1.1.3](#-objetivo-del-módulo-113)
+
+---
+
 ## 📂 Estructura del Directorio  
 
-📁 `/cliente/cli1.1.3/ejercicio01_js` → Botones de Saludo y Despedida.  
-📁 `/cliente/cli1.1.3/ejercicio02_js` → Añadir y Borrar Frutas en un Array.  
-📁 `/cliente/cli1.1.3/ejercicio03_js` → Comparación de números enteros.  
-📁 `/cliente/cli1.1.3/ejercicio04_js` → Contador de letras en una frase.  
-📁 `/cliente/cli1.1.3/ejercicio05_js` → Calculadora de suma/resta.  
-📁 `/cliente/cli1.1.3/ejercicio06_js` → Validación de usuario y contraseña.  
-📁 `/cliente/cli1.1.3/ejercicio07_js` → Asociación de letras con números.  
-📁 `/cliente/cli1.1.3/ejercicio08_js` → Ordenación de un array con el algoritmo de la burbuja.  
-📁 `/cliente/cli1.1.3/ejercicio09_js` → Contador de palabras.  
-📁 `/cliente/cli1.1.3/ejercicio10_js` → Contador de letras a partir de una secuencia de letras.  
-📁 `/cliente/cli1.1.3/ejercicio11_js` → Invertir un número entero.  
-
+📁 `/cliente/cli1.1/cli1.1.3/ejercicio01_js` → Botones de Saludo y Despedida.  
+📁 `/cliente/cli1.1/cli1.1.3/ejercicio02_js` → Añadir y Borrar Frutas en un Array.  
+📁 `/cliente/cli1.1/cli1.1.3/ejercicio03_js` → Comparación de números enteros.  
+📁 `/cliente/cli1.1/cli1.1.3/ejercicio04_js` → Contador de letras en una frase.  
+📁 `/cliente/cli1.1/cli1.1.3/ejercicio05_js` → Calculadora de suma/resta.  
+📁 `/cliente/cli1.1/cli1.1.3/ejercicio06_js` → Validación de usuario y contraseña.  
+📁 `/cliente/cli1.1/cli1.1.3/ejercicio07_js` → Asociación de letras con números.  
+📁 `/cliente/cli1.1/cli1.1.3/ejercicio08_js` → Ordenación de un array con el algoritmo de la burbuja.  
+📁 `/cliente/cli1.1/cli1.1.3/ejercicio09_js` → Contador de palabras.  
+📁 `/cliente/cli1.1/cli1.1.3/ejercicio10_js` → Contador de letras a partir de una secuencia de letras.  
+📁 `/cliente/cli1.1/cli1.1.3/ejercicio11_js` → Invertir un número entero.  
+📁 `/cliente/cli1.1/cli1.1.3/ejercicio12_js` → Calcular el Factorial de un Número Enterocli1.1/. 
 ---
 
 ## 📌 Descripción de los Ejercicios  
@@ -129,5 +149,24 @@ Desarrollar un programa en JavaScript que invierta un número entero sin convert
 
 ---
 
+## 🔢 **Ejercicio 12: Calcular el Factorial de un Número Entero**
+
+📌 **Objetivo:**  
+Desarrollar un programa en JavaScript que calcule el **factorial de un número entero ingresado por el usuario**.
+
+✔️ Solicitar al usuario un número mediante `window.prompt()`.  
+✔️ Calcular el factorial de dicho número utilizando estructuras de control como bucles (`for`, `while`) y condiciones (`if`).  
+✔️ Mostrar el resultado mediante una alerta (`window.alert()`).  
+✔️ Considerar el caso especial de `0`, cuyo factorial es `1` por definición.  
+✔️ Mostrar un mensaje de error si el número ingresado es negativo (el factorial no está definido para números negativos).  
+✔️ Implementar validaciones para asegurar que el dato ingresado sea un número válido.  
+
+📌 **Consideraciones Matemáticas:**  
+✔️ `factorial(0) = 1`  
+✔️ `factorial(1) = 1`  
+✔️ `factorial(5) = 5 × 4 × 3 × 2 × 1 = 120`  
+❌ El factorial **no está definido para números negativos**  
+
+---
 ## 🎯 **Objetivo del Módulo 1.1.3**  
 📌 Aprender a usar **JavaScript** para la manipulación de datos y control de flujo.
