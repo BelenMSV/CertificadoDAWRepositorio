@@ -20,6 +20,7 @@ Este directorio contiene ejercicios prácticos sobre **JavaScript**, centrándos
 📁 `/cliente/cli1.1/cli1.1.3/ejercicio10_js` → Contador de letras a partir de una secuencia de letras.  
 📁 `/cliente/cli1.1/cli1.1.3/ejercicio11_js` → Invertir un número entero.  
 📁 `/cliente/cli1.1/cli1.1.3/ejercicio12_js` → Calcular el Factorial de un Número Entero.  
+
 ---
 
 ## 📌 Descripción de los Ejercicios  
