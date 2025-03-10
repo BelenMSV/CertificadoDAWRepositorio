@@ -4,25 +4,7 @@
 
 Este directorio contiene ejercicios prácticos sobre **JavaScript**, centrándose en operaciones con variables, estructuras de control y manipulación de datos de entrada.  
 
----
 
-## 📚 Índice de Ejercicios
-
-- [👋 Ejercicio 01: Botones de Saludo y Despedida](#-ejercicio-01-botones-de-saludo-y-despedida)
-- [🍎 Ejercicio 02: Añadir y Borrar Frutas en un Array](#-ejercicio-02-añadir-y-borrar-frutas-en-un-array)
-- [🔢 Ejercicio 03: Comparación de Números](#-ejercicio-03-comparación-de-números)
-- [🔡 Ejercicio 04: Contador de Letras en una Frase](#-ejercicio-04-contador-de-letras-en-una-frase)
-- [➕➖ Ejercicio 05: Calculadora de Suma/Resta](#-ejercicio-05-calculadora-de-sumaresta)
-- [🔑 Ejercicio 06: Validación de Usuario y Contraseña](#-ejercicio-06-validación-de-usuario-y-contraseña)
-- [🔠 Ejercicio 07: Asociación de Letras con Números](#-ejercicio-07-asociación-de-letras-con-números)
-- [🔤 Ejercicio 08: Ordenación de un Array con Burbuja](#-ejercicio-08-ordenación-de-un-array-con-burbuja)
-- [📝 Ejercicio 09: Contador de Palabras](#-ejercicio-09-contador-de-palabras)
-- [🔡 Ejercicio 10: Contador de letras a partir de una secuencia de letras](#-ejercicio-10-contador-de-letras-a-partir-de-una-secuencia-de-letras)
-- [🔢 Ejercicio 11: Invertir un Número Entero](#-ejercicio-11-invertir-un-número-entero)
-- [🔢 Ejercicio 12: Calcular el Factorial de un Número Entero](#-ejercicio-12-calcular-el-factorial-de-un-número-entero)
-- [🎯 Objetivo del Módulo 1.1.3](#-objetivo-del-módulo-113)
-
----
 
 ## 📂 Estructura del Directorio  
 
@@ -37,7 +19,7 @@ Este directorio contiene ejercicios prácticos sobre **JavaScript**, centrándos
 📁 `/cliente/cli1.1/cli1.1.3/ejercicio09_js` → Contador de palabras.  
 📁 `/cliente/cli1.1/cli1.1.3/ejercicio10_js` → Contador de letras a partir de una secuencia de letras.  
 📁 `/cliente/cli1.1/cli1.1.3/ejercicio11_js` → Invertir un número entero.  
-📁 `/cliente/cli1.1/cli1.1.3/ejercicio12_js` → Calcular el Factorial de un Número Enterocli1.1/.  
+📁 `/cliente/cli1.1/cli1.1.3/ejercicio12_js` → Calcular el Factorial de un Número Entero.  
 ---
 
 ## 📌 Descripción de los Ejercicios  
