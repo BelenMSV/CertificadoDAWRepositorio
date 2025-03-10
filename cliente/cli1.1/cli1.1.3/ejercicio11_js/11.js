@@ -1,22 +1,21 @@
 /* Dado un número entero, invertir el número y mostrarlo como resultado (no se puede tratar el número como cadena de caracteres, ni usar funciones que no hemos visto, se trata de un ejercicio de algoritmia inicial que se debe hacer con lo que hemos visto, usando matemáticas, arrays y las estructuras de control de flujo vistas en clase) */
 
-let numero= new Number();
-let numeroInvertido= 0;
-let resto;
+let numero = new Number();
+let numeroInvertido = 0;
 
 const DIVISOR = 10;
 const MULTIPLICADOR = 10;
 
 do {
-  numero = parseInt(window.prompt("Introduce un número:"));
+  numero = parseInt(prompt("Introduce un número:"));
   if (isNaN(numero)) {
-    window.alert("Debe introducir un número entero");
+    alert("Debe introducir un número entero");
   }
 } while (isNaN(numero));
 
 while(numero/DIVISOR!=0 && numero%DIVISOR!=0){
 
-   let numeroAuxiliar= 0;
+   let resto;
    //_________________________________________________________________________
    //Para darle la vuelta vamos procesando el número de derecha a izquierda
    //-------------------------------------------------------------------------
@@ -72,10 +71,10 @@ while(numero/DIVISOR!=0 && numero%DIVISOR!=0){
    //____________________________________________________________________________
 
    //Se almacena en una variable el resto de dividir entre 10
-   numeroAuxiliar = numero % DIVISOR;
+   resto = numero % DIVISOR;
 
-   console.log("numeroAuxiliar");
-   console.log(numeroAuxiliar);
+   console.log("resto");
+   console.log(resto);
 
    //Dividimos entre 10 el numero y quitamos los decimales
    numero = parseInt(numero/DIVISOR); 
@@ -85,10 +84,10 @@ while(numero/DIVISOR!=0 && numero%DIVISOR!=0){
 
    //En cada iteracion del while el numero invertido se multiplica por 10 
    //Asi deja paso al numero Auxiliar que hemos almacenado tras calcular el resto del numero recorrido
-   numeroInvertido = numeroInvertido * MULTIPLICADOR + numeroAuxiliar;
+   numeroInvertido = numeroInvertido * MULTIPLICADOR + resto;
 
    console.log("numeroInvertido");
    console.log(numeroInvertido);
 }
 
-window.alert(numeroInvertido);
+alert(numeroInvertido);
