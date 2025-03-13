@@ -7,18 +7,28 @@ let nombreIntroducido;
 let contrasenyaIntroducida;
 let intentos = 0;
 
-do{
-   nombreIntroducido = window.prompt("Introduce el nombre de usuario : ");
-   contrasenyaIntroducida = window.prompt("Introduce la contraseña : ");
-   if(nombreIntroducido!==NOMBRE_USU || contrasenyaIntroducida!==CONTRASENYA){
-      window.alert("Usuario y/o contraseña incorrectos");
-      intentos ++;
-   }
-   
-}while (intentos<3 && (nombreIntroducido!==NOMBRE_USU || contrasenyaIntroducida!==CONTRASENYA))
+do {
+  nombreIntroducido = window.prompt("Introduce el nombre de usuario : ");
+  contrasenyaIntroducida = window.prompt("Introduce la contraseña : ");
+  if (
+    nombreIntroducido !== NOMBRE_USU ||
+    contrasenyaIntroducida !== CONTRASENYA
+  ) {
+    window.alert("Usuario y/o contraseña incorrectos");
+    intentos++;
+  }
+} while (
+  intentos < 3 &&
+  (nombreIntroducido !== NOMBRE_USU || contrasenyaIntroducida !== CONTRASENYA)
+);
 
-   if(nombreIntroducido!==NOMBRE_USU || contrasenyaIntroducida!==CONTRASENYA){
-      document.write("El usuario o la contraseña introducidos son incorrectos, número de intentos agotado.");
-   }else{
-      document.write("Usuario y contraseña correctos.")
-   }
+if (
+  nombreIntroducido !== NOMBRE_USU ||
+  contrasenyaIntroducida !== CONTRASENYA
+) {
+  document.write(
+    "El usuario o la contraseña introducidos son incorrectos, número de intentos agotado."
+  );
+} else {
+  document.write("Usuario y contraseña correctos.");
+}
