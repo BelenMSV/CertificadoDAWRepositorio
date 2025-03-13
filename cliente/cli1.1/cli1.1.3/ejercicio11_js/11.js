@@ -13,9 +13,9 @@ do {
   }
 } while (isNaN(numero));
 
-while(numero/DIVISOR!=0 && numero%DIVISOR!=0){
+while(numero/DIVISOR!=0){
 
-   let resto;
+   let resto=0;
    //_________________________________________________________________________
    //Para darle la vuelta vamos procesando el número de derecha a izquierda
    //-------------------------------------------------------------------------
