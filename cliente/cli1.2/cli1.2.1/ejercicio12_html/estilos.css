@@ -1,0 +1,28 @@
+p {
+  /* c */
+  color: #00f;
+  /* bgc */
+  background-color: #cfc;
+  /* ff */
+  font-family: Georgia, Cambria, serif;
+  /* fz */ 
+  font-size: 16px;
+}
+
+h1 {
+  /* c */
+  color: #f00;
+   /* ff */
+   font-family:  Verdana, Calibri, sans-serif;
+   /* fz */ 
+   font-size: 32px;
+}
+
+h2 {
+  /* c */
+  color: #a00;
+  /* ff */
+  font-family:  Verdana, Calibri, sans-serif;
+  /* fz */ 
+  font-size: 24px;
+}
