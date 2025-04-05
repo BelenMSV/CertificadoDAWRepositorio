@@ -13,7 +13,7 @@ for (let i = 0; i < divisiones.length; i++) {
     palabraImpar = divisiones[i];
     console.log(palabraImpar);
     for (j = 0; j < palabraImpar.length; j++) {
-      if (palabraImpar[j] == "a") {
+      if (palabraImpar.charAt(j) == "a") {
         contador++;
       }
     }
@@ -26,7 +26,7 @@ alert(`La cadena de texto contiene ${contador} veces la letra a en sus palabras 
 let cadena2 = new String(prompt("Introduce una cadena"));
 let divisiones2 = cadena.split(" ");
 let cadenaInvertida = new String("");
-for(let i = divisiones2.length; i>0; i--){
+for(let i = divisiones2.length-1; i>=0; i--){
    cadenaInvertida.concat(" ", divisiones2[i]);
    console.log(cadenaInvertida);
 }
