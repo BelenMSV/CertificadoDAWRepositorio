@@ -39,8 +39,8 @@ Una función que devuelva el número de cifras de un entero solicitado al usuari
 ## 📂 Estructura del Directorio  
 
 📁 `/cliente/cli1.2/cli1.2.1Funciones/ej_funciones01_js` → Convertir todos los ejercicios anteriores a funciones.  
-📁 `/cliente/cli1.2/cli1.2.1Funciones/ej_funciones02_js` → funcion Numero de cifras de un entero
-📁 `/cliente/cli1.2/cli1.2.1Funciones/ej_funciones03_js` → función que muestre al usuario una secuencia de *   
+📁 `/cliente/cli1.2/cli1.2.1Funciones/ej_funciones02_js` → funcion Numero de cifras de un entero.
+📁 `/cliente/cli1.2/cli1.2.1Funciones/ej_funciones03_js` → función que muestre al usuario una secuencia de *.   
 📁 `/cliente/cli1.2/cli1.2.1Funciones/ej_funciones04_js` → Funcion secuencia de *+_*+_*+_*+_ frase.  
 📁 `/cliente/cli1.2/cli1.2.1Funciones/ej_funciones05_js` → Funcion triangulo asteriscos.
 
