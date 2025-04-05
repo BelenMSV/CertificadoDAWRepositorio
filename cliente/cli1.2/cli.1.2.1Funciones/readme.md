@@ -32,12 +32,7 @@ Una función que devuelva el número de cifras de un entero solicitado al usuari
 4 Una función que permita mostrar la secuencia (se debe construir la cadena de uno en uno):
  *+_*+_*+_*+_
 
-5 Una función que permita mostrar un triángulo como el siguiente:
-*
-**
-***
-****
-*****
+5 Una función que permita mostrar un triángulo de asteriscos
 
 6 Una función que devuelva la diferencia en días entre dos fechas del mismo año (sólo tenemos en cuenta dia y mes)
 
@@ -73,12 +68,7 @@ Una función que devuelva el número de cifras de un entero solicitado al usuari
 
 ### 👋 **Ejercicio 05: Funcion triangulo de astericos**
 
-5 Una función que permita mostrar un triángulo como el siguiente:
-*
-**
-***
-****
-*****
+5 Una función que permita mostrar un triángulo de asteriscos
 
 ### 👋 **Ejercicio 06: Funcion diferencia entre fechas**
 
